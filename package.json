@@ -1,0 +1,18 @@
+{
+  "name": "onlinecheckwriter-mailcheck",
+  "version": "1.0.3",
+  "description": "Simple and fastest bank check mailing api from onlinecheckwriter.com",
+  "main": "index.js",
+  "keywords": [
+    "check",
+    "mailing",
+    "bank",
+    "check",
+    "banking"
+  ],
+  "dependencies": {
+    "sync-request": "^6.1.0"
+  },
+  "author": "onlinecheckwriter <support@onlinecheckwriter.com>",
+  "license": "ISC"
+}
