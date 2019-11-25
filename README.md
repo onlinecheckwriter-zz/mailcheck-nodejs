@@ -37,6 +37,9 @@ Sample Code:
 
 ```nodejs
 const mailcheck = require('onlinecheckwriter-mailcheck')
+mailcheck.setToken("G5LoP94QISpOvk6i072yXDFBPwSjRS01foqlYPdVdYJ7li2NRkvzuHvYIzif");
+mailcheck.setEnviorment("SANDBOX");
+
 var bank_account_data = {account_number: "99999", routing_number: "111111111" }
 var payee_data = {
 	"name": "Alison Gambala"
@@ -49,8 +52,7 @@ var payee_data = {
 	,"phone":"900244400"
 }
 
-mailcheck.setToken("G5LoP94QISpOvk6i072yXDFBPwSjRS01foqlYPdVdYJ7li2NRkvzuHvYIzif");
-mailcheck.setEnviorment("SANDBOX");
+
 
 bank_account = mailcheck.getBankAccountId(bank_account_data)
 payee        = mailcheck.createPayee(payee_data);
