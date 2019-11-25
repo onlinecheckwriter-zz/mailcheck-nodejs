@@ -1,4 +1,7 @@
-#Onlinecheckwriter Check Mailing Api
+# Onlinecheckwriter Check Mailing Api Nodejs Package
+
+
+npm i onlinecheckwriter-mailcheck --save
 
 
 ### Registration
