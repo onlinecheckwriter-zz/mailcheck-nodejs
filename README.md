@@ -1,7 +1,7 @@
 # Onlinecheckwriter Check Mailing Api Nodejs Package
 
 
-### installation
+### Installation
 ```nodejs
 npm i onlinecheckwriter-mailcheck --save
 ```
